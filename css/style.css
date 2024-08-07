@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Metal", serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .navigation {
@@ -21,8 +21,9 @@
 .navigation ul {
     display: flex;
     align-items: center;
-    gap: 6rem;
+    gap: 2rem;
     list-style-type: none;
+    position: relative;
 
 }
 
@@ -60,3 +61,4 @@ header .contato button:hover {
 head .foguete{
     background-image: url("../img/foguete.jpg");
 }
+
