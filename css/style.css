@@ -58,7 +58,52 @@ header .contato button:hover {
     box-shadow: 0px 0px 6px #8B4513;
 }
 
-head .foguete{
-    background-image: url("../img/foguete.jpg");
+.animate{
+    color: white;
+    text-transform: uppercase
+    opacity: 1; 
+    visibility: inherit; 
+    translate: none; 
+    rotate: none; 
+    scale: none;
+     transform: translate3d(0px, 0px, 0px);;
 }
 
+.animate_shadowed{
+    color: white; 
+    text-transform: uppercase; 
+    opacity: 1; 
+    visibility: inherit; 
+    translate: none; 
+    rotate: none; 
+    scale: none; 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.btn{
+    color: black;
+    background-color: black;
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.inner-left-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 200px;
+}
+
+.inner-left-bottom p{
+    font-size:  20px;
+}
+
+.inner-left-bottom h2{
+    font-size: 48px;
+}
